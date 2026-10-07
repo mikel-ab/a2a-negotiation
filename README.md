@@ -15,69 +15,6 @@ Accelerated EUR 335,350 · buyer saving EUR 5,727 · audit: logs/audit.jsonl
 ## Why this exists
 Agentic payment protocols (AP2, ACP, x402, MPP) solve authorisation, checkout and settlement. None of them negotiate **terms**. In B2B, terms are where the money is: 2/10 net 30 is a 37% APR. This repo shows the missing layer: two principals, two policies, two agents, one auditable agreement.
 
-[
-  {
-    "invoice_id": "INV-8840",
-    "status": "agreed",
-    "reason": "within both mandates",
-    "discount_pct": 1.919,
-    "pay_in_days": 0,
-    "apr": 14.0,
-    "saving_eur": 1746.29,
-    "rounds": 3,
-    "transcript": [
-      {
-        "action": "offer",
-        "discount_pct": 1.17,
-        "pay_in_days": 0,
-        "message": "Atlas Freight: proposing 1.17% for immediate payment.",
-        "apr": 8.47,
-        "clamped": false
-      },
-      {
-        "action": "offer",
-        "discount_pct": 2.22,
-        "pay_in_days": 0,
-        "message": "Acme Co.: proposing 2.22% for immediate payment.",
-        "apr": 16.25,
-        "clamped": false
-      },
-      {
-        "action": "offer",
-        "discount_pct": 1.55,
-        "pay_in_days": 0,
-        "message": "Atlas Freight: proposing 1.55% for immediate payment.",
-        "apr": 11.27,
-        "clamped": false
-      },
-      {
-        "action": "offer",
-        "discount_pct": 1.93,
-        "pay_in_days": 0,
-        "message": "Acme Co.: proposing 1.93% for immediate payment.",
-        "apr": 14.08,
-        "clamped": false
-      },
-      {
-        "action": "offer",
-        "discount_pct": 1.919,
-        "pay_in_days": 0,
-        "message": "Atlas Freight: proposing 1.92% for immediate payment. [policy layer clamped to 1.92% \u2014 outside supplier mandate]",
-        "apr": 14.0,
-        "clamped": true
-      },
-      {
-        "action": "accept",
-        "discount_pct": 1.919,
-        "pay_in_days": 0,
-        "message": "Acme Co.: 1.92% is within mandate. Accepting.",
-        "apr": 14.0,
-        "clamped": false
-      }
-    ]
-  }
-]
-
 
 ## Design
 | Component | Role |

@@ -1,0 +1,9 @@
+{
+  "party": "Atlas Freight",
+  "role": "supplier",
+  "cost_of_capital_apr": 14.0,
+  "min_discount_pct": 0.5,
+  "opening_discount_pct": 0.8,
+  "liquidity_need_eur": 120000,
+  "max_rounds": 4
+}

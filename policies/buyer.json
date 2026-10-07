@@ -1,0 +1,13 @@
+{
+  "party": "Acme Co.",
+  "role": "buyer",
+  "treasury_yield_apr": 4.0,
+  "hurdle_spread_apr": 8.0,
+  "max_discount_pct": 3.0,
+  "opening_discount_pct": 2.5,
+  "weekly_early_pay_cap_eur": 400000,
+  "human_approval_above_eur": 100000,
+  "human_approval_above_discount_pct": 2.5,
+  "requires_po": true,
+  "max_rounds": 4
+}

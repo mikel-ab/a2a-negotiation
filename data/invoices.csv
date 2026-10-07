@@ -1,0 +1,7 @@
+invoice_id,supplier,buyer,amount_eur,issue_date,due_date,terms,po_number,status
+INV-8828,Atlas Freight,Acme Co.,48500,2026-09-05,2026-10-05,NET30,PO-4471,open
+INV-8831,Atlas Freight,Acme Co.,12200,2026-09-12,2026-10-12,NET30,PO-4479,open
+INV-8840,Atlas Freight,Acme Co.,91000,2026-09-20,2026-11-19,NET60,PO-4502,open
+INV-8842,Atlas Freight,Acme Co.,3800,2026-09-22,2026-10-22,NET30,,disputed
+INV-8845,Atlas Freight,Acme Co.,27650,2026-09-25,2026-11-24,NET60,PO-4510,open
+INV-8851,Atlas Freight,Acme Co.,156000,2026-09-27,2026-11-26,NET60,PO-4515,open
